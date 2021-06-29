@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  cursor: pointer;
+  /* position: fixed; */
+  /* display: flex; */
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #39445a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 5vw;
+  padding-bottom: 15px;
+  box-shadow: 0px 1px 5px black;
+  color: white;
+  z-index: 100;
+}
+.youtube-icon {
+  position: relative;
+  top: 219px;
+  bottom: 0;
+  left: 45%;
+  right: 0;
+}
+
+.container {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: black;
+}
+.carousel-wrapper{
+  height:750px;
+  position:relative;
+  width:90%;
+  margin:0 auto;
+}
+.carousel-item{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:25px 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow{
+  border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+ 
+.arrow-next{
+    right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+  }
+
+.light{
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1 {
+  z-index: 2;
+  opacity: 1;
+  background:url('https://i.pinimg.com/originals/bb/65/b2/bb65b2f311c7ac269e32360fe9ff6a69.jpg');
+  background-size:cover;
+  }
+.item-2{
+  background:url('https://genk.mediacdn.vn/2019/8/12/anh-2-15655805281641592033330.png');
+   background-size:cover;
+}
+.item-3{
+  background:url('https://media-cdn.laodong.vn/Storage/NewsPortal/2020/2/29/787695/578692Fa75ba9ce4c5ab.jpg');
+   background-size:cover;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+  }
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+  }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  }
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}

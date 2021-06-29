@@ -1,0 +1,15 @@
+
+.carousel {
+  margin: 20px auto;
+  padding-top: 100px;
+  overflow: hidden;
+ 
+}
+.container {
+  display: inline-flex;
+
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 50vh;
+}
+

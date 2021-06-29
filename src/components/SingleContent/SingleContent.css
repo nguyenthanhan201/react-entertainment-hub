@@ -1,0 +1,106 @@
+.media {
+  /* display: flex; */
+  flex-direction: column;
+  width: 275px;
+  padding: 10px;
+  margin: 25px 5px;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  align-items: stretch;
+}
+
+.media:hover {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+
+/* .Container{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+} */
+
+.Container .Card {
+  /* position: relative; */
+  /* max-width: 300px; */
+  height: 400px;
+  /* margin: 30px 20px;
+  padding: 20px 15px; */
+  display: contents;
+  /* flex-direction: column; */
+  /* box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5); */
+  transition: 0.3s ease-in-out;
+}
+.Container .Card:hover {
+  height: 450px;
+}
+
+.Container .Card .imgBx{
+  /* overflow: hidden; */
+  /* position: relative; */
+  display: inherit;
+  width: 300px;
+  height: 300px;
+  /* top: -60px;
+  left: 20px; */
+  z-index: 1;
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.Container .Card .imgBx img{
+  max-width: 255px;
+  border-radius: 4px;
+}
+
+.Container .Card .content{
+  display: none;
+  position: relative;
+  margin-top: -40px;
+  padding: 10px 15px;
+  /* text-align: inherit; */
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.Container .Card:hover .content{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  margin-top: 10px;
+  transition-delay: 0.3s;
+}
