@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-entertainment-hub/static/css/main.e30be4cf.chunk.css",
+    "main.js": "/react-entertainment-hub/static/js/main.43cf6c93.chunk.js",
+    "main.js.map": "/react-entertainment-hub/static/js/main.43cf6c93.chunk.js.map",
+    "runtime-main.js": "/react-entertainment-hub/static/js/runtime-main.4a66dd4e.js",
+    "runtime-main.js.map": "/react-entertainment-hub/static/js/runtime-main.4a66dd4e.js.map",
+    "static/css/2.1a958e8e.chunk.css": "/react-entertainment-hub/static/css/2.1a958e8e.chunk.css",
+    "static/js/2.0a317a52.chunk.js": "/react-entertainment-hub/static/js/2.0a317a52.chunk.js",
+    "static/js/2.0a317a52.chunk.js.map": "/react-entertainment-hub/static/js/2.0a317a52.chunk.js.map",
+    "index.html": "/react-entertainment-hub/index.html",
+    "service-worker.js": "/react-entertainment-hub/service-worker.js",
+    "service-worker.js.map": "/react-entertainment-hub/service-worker.js.map",
+    "static/css/2.1a958e8e.chunk.css.map": "/react-entertainment-hub/static/css/2.1a958e8e.chunk.css.map",
+    "static/css/main.e30be4cf.chunk.css.map": "/react-entertainment-hub/static/css/main.e30be4cf.chunk.css.map",
+    "static/js/2.0a317a52.chunk.js.LICENSE.txt": "/react-entertainment-hub/static/js/2.0a317a52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a66dd4e.js",
+    "static/css/2.1a958e8e.chunk.css",
+    "static/js/2.0a317a52.chunk.js",
+    "static/css/main.e30be4cf.chunk.css",
+    "static/js/main.43cf6c93.chunk.js"
+  ]
+}
